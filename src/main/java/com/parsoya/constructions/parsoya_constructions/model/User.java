@@ -1,19 +1,14 @@
 package com.parsoya.constructions.parsoya_constructions.model;
 
-
 import java.util.Date;
 import java.util.List;
-
-
 import lombok.Data;
-
 import javax.persistence.*;
 
 @Data
 @Entity
 @Table(name = "users")
 public class User {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
