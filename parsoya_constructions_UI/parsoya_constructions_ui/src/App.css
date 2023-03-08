@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* ------------------------------------------------------------ */
+
+.home-image{
+  position: relative;
+  height: auto;
+  width: 100px;
+}
