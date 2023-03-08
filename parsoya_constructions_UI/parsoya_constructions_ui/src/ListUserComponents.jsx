@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import UserService from './service/UserService';
 
 class ListUserComponents extends Component {
 
@@ -7,6 +8,12 @@ class ListUserComponents extends Component {
         this.state={
             users:[]
         }
+    }
+
+    componentDidMount(){
+        UserService.getUserList().then((res) => {
+            this.setState({users: res.data});
+        });
     }
 
     render() {

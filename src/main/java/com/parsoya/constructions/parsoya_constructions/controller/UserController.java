@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import com.parsoya.constructions.parsoya_constructions.model.User;
 import com.parsoya.constructions.parsoya_constructions.service.UserService;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @Controller
 @RequestMapping("/api/v1/")
 @ResponseBody
