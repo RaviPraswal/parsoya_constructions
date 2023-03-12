@@ -39,20 +39,6 @@
 
 
 /* ------------------------------------------------------------ */
-.home-image{
-  height: 100%;
-  width: 100%;
- box-sizing: border-box;
- background-image: linear-gradient();
- background-position: center;
- background-repeat:no-repeat;
- background-size: cover;
-}
-
-.para{
-  font-size: 10rem;
-}
-
 .homepage-bgimage {
   background: url("../src/images/pexels-pixabay-38293.jpg");
   opacity: .7;
@@ -63,5 +49,14 @@
   background-origin: border-box;
   background-attachment: fixed;
   object-fit: cover;
-
+}
+.color-primary{
+  color:#FFF !important;
+ 
+}
+.background-dark{
+  background-color: #212121;
+}
+.underline-none{
+  text-decoration:none !important;
 }
