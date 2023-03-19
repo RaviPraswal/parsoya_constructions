@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -40,7 +40,9 @@
 
 /* ------------------------------------------------------------ */
 .homepage-bgimage {
-  background: url("../src/images/pexels-pixabay-38293.jpg");
+   /* background: url("../src/images/wallpaperflare.com_wallpaper (5).jpg");  */
+   background-color: hsl(0, 45%, 98%);
+
   opacity: .7;
   height: 100vh;
   background-position: center;

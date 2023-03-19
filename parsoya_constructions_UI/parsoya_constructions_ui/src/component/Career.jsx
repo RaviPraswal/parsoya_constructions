@@ -1,7 +1,9 @@
-const Career=()=>{
-    return(
+const Career = () => {
+    return (
         <>
-            <h1>Career component</h1>
+            
+                <h1>Career component</h1>
+            
         </>
     );
 }
